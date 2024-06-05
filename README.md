@@ -7,6 +7,7 @@ git clone https://github.com/OPSphystech420/OpenGL-3D-Train.git
 #### Requirements
 GCC c++17 or later
 ```
+brew install freeglut
 brew install glfw3
 brew install glew
 brew install openal-soft
