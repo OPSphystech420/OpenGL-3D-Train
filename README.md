@@ -19,4 +19,6 @@ chmod +x run.sh
 ./run.sh
 ```
 
-### Windows
+![White blank editor](/images/img1.png)
+
+![White blank editor](/images/img2.png)
