@@ -18,9 +18,8 @@ sed -i '' 's/\r$//' run.sh
 chmod +x run.sh
 ./run.sh
 ```
-
 #### 🛠️ Don't use freeglut!
-It will suggest "failed to open display ''", which means that the freeglut lib can't find an X server to connect to, while MacOS uses a different windowing system.
+It will suggest « _failed to open display ''_ »‎ which means that the freeglut lib can't find an X server to connect to, while MacOS uses a different windowing system.
 
 ![White blank editor](/images/img1.png)
 
