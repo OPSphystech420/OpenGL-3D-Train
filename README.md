@@ -1,3 +1,7 @@
+```
+git clone
+```
+
 ### MacOS
 
 #### Requirements
@@ -8,7 +12,7 @@ brew install glew
 brew install openal-soft
 brew install libsndfile 
 ```
-### Run
+#### Run
 ```bash
 sed -i '' 's/\r$//' run.sh
 chmod +x run.sh
