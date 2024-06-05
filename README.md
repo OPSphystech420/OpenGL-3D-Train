@@ -22,3 +22,5 @@ chmod +x run.sh
 ![White blank editor](/images/img1.png)
 
 ![White blank editor](/images/img2.png)
+
+![White blank editor](/images/img3.png)
