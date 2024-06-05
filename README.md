@@ -1,5 +1,5 @@
 ```
-git clone
+git clone https://github.com/OPSphystech420/OpenGL-3D-Train.git
 ```
 
 ### MacOS
