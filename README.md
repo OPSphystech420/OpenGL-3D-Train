@@ -7,7 +7,6 @@ git clone https://github.com/OPSphystech420/OpenGL-3D-Train.git
 #### Requirements
 GCC c++17 or later
 ```
-brew install freeglut
 brew install glfw3
 brew install glew
 brew install openal-soft
@@ -19,6 +18,9 @@ sed -i '' 's/\r$//' run.sh
 chmod +x run.sh
 ./run.sh
 ```
+
+#### 🛠️ Don't use freeglut!
+It will suggest "failed to open display ''", which means that the freeglut lib can't find an X server to connect to, while MacOS uses a different windowing system.
 
 ![White blank editor](/images/img1.png)
 
