@@ -4,6 +4,7 @@ g++ -std=c++17 -o Train Main.cpp OpenGL.cpp textures/textures.cpp OpenAL/OpenAL.
 
 if [ $? -eq 0 ]; then
     echo "success"
+    ./Train
 else
     echo "failed"
 fi
