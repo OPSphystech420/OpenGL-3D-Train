@@ -6,7 +6,7 @@ void updateWagon() {
     
     if (!wagon.isConnected) {
         if (std::abs(wagon.velocity) > 1 && condition) {
-            playAudio(source3, buffer3, AL_TRUE);s
+            playAudio(source3, buffer3, AL_TRUE);
             condition = false;
         } else if (!condition && std::abs(wagon.velocity) < 1) {
             stopAudio(source3);
